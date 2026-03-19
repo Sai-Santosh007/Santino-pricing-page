@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Santino pricing page</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+ <div class="nav">
+  <div class="logo">
+        <svg class="img" viewBox="0 0 220 40" xmlns="http://www.w3.org/2000/svg">
+            <style>
+                .s {
+                    stroke: #2a0800;
+                    fill: none;
+                    stroke-linecap: square;
+                    stroke-linejoin: miter
+                }
+        
+                .f {
+                    fill: #2a0800
+                }
+        
+                .nm {
+                    fill: #2a0800;
+                    font-family: sans-serif;
+                    font-weight: 400;
+                    letter-spacing: 4px;
+                    font-size: 15px
+                    
+                }
+        
+                .vd {
+                    stroke: #2a0800;
+                    stroke-width: 0.6;
+                    opacity: 0.3
+                }
+            </style>
+        
+            <!-- hexcore symbol centered at x=20 y=20 -->
+            <g transform="translate(20,20)">
+                <polygon points="0,-18 15.6,-9 15.6,9 0,18 -15.6,9 -15.6,-9" class="s" stroke-width="1.4" />
+                <polygon points="0,-10 8.7,-5 8.7,5 0,10 -8.7,5 -8.7,-5" class="s" stroke-width="0.7" />
+                <line x1="0" y1="-10" x2="0" y2="-18" class="s" stroke-width="0.8" />
+                <line x1="8.7" y1="-5" x2="15.6" y2="-9" class="s" stroke-width="0.8" />
+                <line x1="8.7" y1="5" x2="15.6" y2="9" class="s" stroke-width="0.8" />
+                <line x1="0" y1="10" x2="0" y2="18" class="s" stroke-width="0.8" />
+                <line x1="-8.7" y1="5" x2="-15.6" y2="9" class="s" stroke-width="0.8" />
+                <line x1="-8.7" y1="-5" x2="-15.6" y2="-9" class="s" stroke-width="0.8" />
+                <circle cx="0" cy="0" r="3" class="f" />
+            </g>
+        
+            <!-- divider -->
+            <line x1="44" y1="8" x2="44" y2="32" class="vd" />
+        
+            <!-- brand name -->
+            <text x="54" y="25" class="nm">SANTINO</text>
+        </svg>
+  </div>
+  <div class="centre-but">
+    <a href="learn.html" class="mid-but">Learn more</a>
+    <a href="testimonials.html" class="mid-but">Testinomials</a>
+    <a href="#aboutus" class="mid-but">About Us</a>
+    <a href="contact.html"class="mid-but">Contact</a>
+  </div>
+  <div class="right-but">
+   <a href="signin.html" class="login">Sign in</a>
+   <a href="getst.html" class="get-started">Get Started</a>
+   <a href="" id="hambtn" class="ham-icon"><i class="fa-solid fa-bars"></i></a>
+  </div>
+ </div>
+ <div id="mobmenu" class="mob-menu">
+    <button id="menuclose" class="menu-x">x</button>
+    <header>Menu:</header>
+    <div class="mob-links">
+        <hr>
+        <a href="learn.html" class="mob-link-item">Learn more</a>
+        <hr>
+        <a href="testimonials.html" class="mob-link-item">Testimonials</a>
+        <hr>
+        <a href="#aboutus" class="mob-link-item">About Us</a>
+        <hr>
+        <a href="contact.html" class="mob-link-item">Contact</a>
+        <hr>
+        <a href="getst.html" class="mob-link-item">Get started</a>
+    </div>
+ </div>
+ <div id="moboverlay" class="mob-over">
+
+ </div>
+
+ <div class="main">
+  <div class="header">
+    Start for free.
+    <div> Synchronize Artificial Intelligence.</div>
+  </div>
+  <div class="quote">
+   “Not every dream needs the biggest plan.
+   Just the right one.”
+  </div>
+ </div>
+  <div class="card-container">
+    <div class="card free">
+        <div class="cardname">AI-assisted</div>
+        <div class="main-det">
+            <div class="free">Free</div>
+            <div class="cost">$0/mon/user</div>
+            <div class="whom">Best for smaller teams who want to simplify finances.</div>
+
+            <form action="error.html" class="card-form">
+                <input type="email" placeholder="enter your email" required>
+                <button type="submit">Get started for free</button>
+            </form>
+        </div>
+        <hr>
+        <ul class="offers">
+            <li class="offerb">Key features:</li>
+            <li class="offerb">Corporate Card</li>
+            <li class="offers-text">Unlimited cards</li>
+            <li class="offers-text">Card issuing controls</li>
+            <li class="offerb">Travel & Expense</li>
+            <li class="offers-text">Complete expenses via SMS or Slack</li>
+            <li class="offers-text">Create a custom travel policy</li>
+            <li class="offers-text">Book flights, hotels, and car rentals</li>
+            <li class="offers-text">Auto-receipt collection and matching</li>
+            <li class="offerb">Accounts Payable</li>
+            <li class="offers-text">Automated invoice extraction (OCR)</li>
+            <li class="offers-text">Configurable approval workflows</li>
+            <li class="offers-text">Automated fraud checks</li>
+            <li class="offers-text">Pay bills by ACH, card, check, wire, and more</li>
+            <li class="offerb">Treasury</li>
+            <li class="offers-text">Earn 3.62%* in a Ramp Investment Account</li>
+            <li class="offers-text">Earn 2%* on cash in a FDIC-insured account</li>
+            <li class="offers-text">No fees, minimum deposits, or transfer caps</li>
+            <li class="offers-text">Free wires and same-day ACH via Bill Pay</li>
+            <li class="offerb">Accounting Automation</li>
+            <li class="offers-text">Basic accounting rules</li>
+            <li class="offers-text">QuickBooks Online and Xero integrations</li>
+            <li class="offerb">Budgets & Reporting</li>
+            <li class="offers-text">Custom reports and insights via AI reporting</li>
+            <li class="offers-text">Custom report builder</li>
+            <li class="offerb">Vendor Management</li>
+            <li class="offers-text">Automated vendor tracking and contract extraction</li>
+            <li class="offers-text">Price intelligence</li>
+        </ul>
+    </div>
+
+    <div class="card pro">
+        <div class="cardname">AI-powered</div>
+        <div class="main-det">
+            <div class="pro">Pro</div>
+            <div class="cost">$49/mon/user</div>
+            <div class="whom2">Perfect for teams who want to use AI-driven automation to eliminate busywork.</div>
+
+            <form action="error.html" class="card-form">
+                <input type="email" placeholder="enter your email" required>
+                <button type="submit">Get Started</button>
+            </form>
+        </div>
+        <hr>
+        <ul class="offers">
+            <li class="offerb">All the features of Free, and:</li>
+            <li class="offerb">Travel & Expense</li>
+            <li class="offers-text">AI-driven expense reviews and policy insights</li>
+            <li class="offers-text">Auto-lock cards when compliance is unmet</li>
+            <li class="offers-text">24/7 phone support for travel bookings</li>
+            <li class="offerb">Accounts Payable</li>
+            <li class="offers-text">Auto-coded line items</li>
+            <li class="offers-text">AI-driven approval recommendations</li>
+            <li class="offers-text">Automated batch payments</li>
+            <li class="offers-text">Payment release approvals</li>
+            <li class="offerb">Procurement</li>
+            <li class="offers-text">Advanced intake and approval workflows</li>
+            <li class="offers-text">AI-driven vendor compliance reviews</li>
+            <li class="offers-text">Automated PO creation and tracking</li>
+            <li class="offers-text">Three-way match with Ramp purchase orders</li>
+            <li class="offerb">Accounting Automation</li>
+            <li class="offers-text">NetSuite, Sage Intacct, and more integrations</li>
+            <li class="offers-text">AI coding for every field</li>
+            <li class="offers-text">Automate approval and sync of routine spend</li>
+            <li class="offers-text">Support for multi-entity businesses</li>
+            <li class="offerb">Global Coverage</li>
+            <li class="offers-text">Auto tax capture and coding</li>
+            <li class="offers-text">Locally funded reimbursements</li>
+            <li class="offers-text">Pay card payments in local currency</li>
+            <li class="offerb">Budgets & Reporting</li>
+            <li class="offers-text">Share live reports and schedule exports</li>
+            <li class="offers-text">Track budgets vs. actuals in real time</li>
+            <li class="offerb">User management</li>
+            <li class="offers-text">Custom user roles</li>
+            <li class="offers-text">Multi-entity visibility restrictions</li>
+            <li class="offers-text">Audit log</li>
+        </ul>
+    </div>
+
+    <div class="card enterprise">
+        <div class="cardname">AI-tailored</div>
+        <div class="main-det">
+            <div class="enterprise">Enterprise</div>
+            <div class="cost">$99/mon/user</div>
+            <div class="whom2">Specifically made for teams who need full customization.</div>
+
+            <form action="error.html" class="card-form">
+                <input type="email" placeholder="enter your email" required>
+                <button type="submit">Contact our services</button>
+            </form>
+        </div>
+        <hr>
+        <ul class="offers">
+            <li class="offerb">All the features of Plus, and:</li>
+            <li class="offerb">Accounting Automation</li>
+            <li class="offers-text">Workday, Oracle Fusion Cloud, and more integrations</li>
+            <li class="offerb">Global Coverage</li>
+            <li class="offers-text">Local currency card issuing in 40+ countries</li>
+            <li class="offerb">White Glove Support</li>
+            <li class="offers-text">Dedicated account and customer success manager</li>
+            <li class="offers-text">Priority 24/7 global support</li>
+            <li class="offerb">Implementation Services</li>
+            <li class="offers-text">Custom implementation scoping and roll out plan</li>
+            <li class="offers-text">Integration setup and validation testing</li>
+            <li class="offers-text">Employee training and change management</li>
+            <li class="offerb">Enterprise Services</li>
+            <li class="offers-text">Custom development</li>
+            <li class="offers-text">ERP extensions and configurations</li>
+            <li class="offers-text">Custom policy and workflow configuration</li>
+            <li class="offers-text">Advanced org, role, and entity configuration</li>
+        </ul>
+    </div>
+  </div>
+    <div class="users">
+        1000+ finance teams have saved millions of hours with Santino
+    </div>
+    <div class="video"><video autoplay muted playsinline loop src="santino.users.mp4">Your browser does not support the video tag.</video></div>
+    <div class="faq">FAQ</div>
+    <div class="que-tab">
+        <div class="faq-item">
+            <div class="que-hr">
+                <hr>
+            </div>
+            <div class="que">
+                <div class="que-icon" onclick="toggleFaq(this)">
+                    Is there a free version of Santino?
+                    <div><i class="fa-solid fa-angle-down faq-arrow"></i></div>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! Santino offers a completely free plan with no credit card required. You get access to core
+                        features including unlimited corporate cards, travel and expense management, and basic accounting
+                        automation — perfect for smaller teams getting started.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="que-hr">
+                <hr>
+            </div>
+            <div class="que">
+                <div class="que-icon" onclick="toggleFaq(this)">
+                    Are there any limits on how many cards I can issue?
+                    <div><i class="fa-solid fa-angle-down faq-arrow"></i></div>
+                </div>
+                <div class="faq-answer">
+                    <p>On the free plan, you can issue unlimited virtual and physical cards with full issuing controls.
+                        There are no hard limits on card count across any of our plans — Pro and Enterprise users get
+                        additional controls like auto-lock and compliance enforcement.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="que-hr">
+                <hr>
+            </div>
+            <div class="que">
+                <div class="que-icon" onclick="toggleFaq(this)">
+                    How can we manage our Santino plan?
+                    <div><i class="fa-solid fa-angle-down faq-arrow"></i></div>
+                </div>
+                <div class="faq-answer">
+                    <p>You can manage your Santino plan directly from your account dashboard. Upgrade, downgrade, or cancel
+                        at any time. Plan changes take effect immediately, and our support team is available 24/7 to assist
+                        with any billing or plan-related questions.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="que-hr">
+                <hr>
+            </div>
+            <div class="que">
+                <div class="que-icon" onclick="toggleFaq(this)">
+                    Can I pay for Santino Pro with Santino card?
+                    <div><i class="fa-solid fa-angle-down faq-arrow"></i></div>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, you can use your Santino corporate card to pay for your Pro or Enterprise subscription. Simply
+                        add it as your billing method in the account settings. This makes expense tracking seamless since
+                        the subscription cost is automatically logged.</p>
+                </div>
+            </div>
+            <div class="que-hr">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="footer"  id="aboutus">
+        <div class="fdiv1">
+          <div><a href="#">LinkedIn</a>
+            <a href="#">X</a>
+            <a href="#">Facebook</a>
+            <div>Santino group of Industries.Ltd.</div>
+            <div class="footer-loc">west coast gardens, 11th block, bengaluru-560001,India.</div>
+          </div>
+            <svg class="img-footer" viewBox="0 0 280 40" xmlns="http://www.w3.org/2000/svg">
+                <style>
+                    .fs {
+                        stroke: #ffffff;
+                        fill: none;
+                        stroke-linecap: square;
+                        stroke-linejoin: miter
+                    }
+            
+                    .ff {
+                        fill: #ffffff
+                    }
+            
+                    .fnm {
+                        fill: #ffffff;
+                        font-family: sans-serif;
+                        font-weight: 400;
+                        letter-spacing: 7px;
+                        font-size: 15px
+                    }
+            
+                    .fsub {
+                        fill: #ffffff;
+                        font-family: sans-serif;
+                        letter-spacing: 4px;
+                        font-size: 5.5px
+                    }
+            
+                    .ftag {
+                        fill: #ffffff;
+                        font-family: sans-serif;
+                        letter-spacing: 3px;
+                        font-size: 4.5px
+                    }
+            
+                    .frule {
+                        stroke: #ffffff;
+                        stroke-width: 0.4;
+                        opacity: 0.2
+                    }
+            
+                    .fvd {
+                        stroke: #ffffff;
+                        stroke-width: 0.6;
+                        opacity: 0.3
+                    }
+                </style>
+            
+                <!-- hexcore symbol centered at x=20 y=20 -->
+                <g transform="translate(20,20)">
+                    <polygon points="0,-18 15.6,-9 15.6,9 0,18 -15.6,9 -15.6,-9" class="fs" stroke-width="1.4" />
+                    <polygon points="0,-10 8.7,-5 8.7,5 0,10 -8.7,5 -8.7,-5" class="fs" stroke-width="0.7" />
+                    <line x1="0" y1="-10" x2="0" y2="-18" class="fs" stroke-width="0.8" />
+                    <line x1="8.7" y1="-5" x2="15.6" y2="-9" class="fs" stroke-width="0.8" />
+                    <line x1="8.7" y1="5" x2="15.6" y2="9" class="fs" stroke-width="0.8" />
+                    <line x1="0" y1="10" x2="0" y2="18" class="fs" stroke-width="0.8" />
+                    <line x1="-8.7" y1="5" x2="-15.6" y2="9" class="fs" stroke-width="0.8" />
+                    <line x1="-8.7" y1="-5" x2="-15.6" y2="-9" class="fs" stroke-width="0.8" />
+                    <circle cx="0" cy="0" r="3" class="ff" />
+                </g>
+            
+                <!-- divider -->
+                <line x1="44" y1="6" x2="44" y2="34" class="fvd" />
+            
+                <!-- wordmark -->
+                <g transform="translate(52,20)">
+                    <text x="0" y="-4" class="fnm">SANTINO</text>
+                    <text x="0" y="6" class="fsub">AN ETERNAL COMPANY</text>
+                    <line x1="0" y1="10" x2="172" y2="10" class="frule" />
+                    <text x="0" y="16" class="ftag">EST. 2026</text>
+                </g>
+            </svg>
+        </div>
+        <div>
+            <div class="foot-links"><a href="terms.condition.html">Terms and Conditions</a>
+                <a href="editorial.html">Editorial Guidelines</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div>
+                <div>About Us:</div>
+                <div class="abt-mat">We believe financial decisions shouldn't be slow, confusing, or driven by guesswork.
+                
+                Our platform explores how Artificial Intelligence can simplify financial business solutions by turning complex data
+                into clear insights. From analyzing financial patterns to helping businesses make smarter strategic decisions, our goal
+                is to show how technology can support faster and more informed financial workflows.
+                
+                This website is a demonstration project built to showcase how AI can assist businesses in areas like financial
+                analysis, decision support, and operational efficiency. By combining modern web technologies with AI-powered logic, the
+                platform illustrates how intelligent systems can transform traditional financial processes.
+                
+                Our mission is simple:
+                make financial insights more accessible, understandable, and actionable through technology.
+                
+                We believe the future of finance will not replace human expertise — it will amplify it with intelligent tools.
+                
+                This project represents a step toward that future.
+                Our approach focuses on clarity, efficiency, and intelligent automation.
+                By leveraging AI-driven systems, we aim to reduce the complexity often associated with financial decision-making.
+                
+                The platform demonstrates how businesses can use technology to analyze trends, identify opportunities, and respond to
+                financial challenges with greater confidence.
+                
+                Instead of relying solely on manual processes, modern organizations can integrate intelligent tools that streamline
+                workflows and improve accuracy.
+                
+                This project highlights the potential of combining data analysis with artificial intelligence to support smarter
+                financial strategies.
+                
+                As technology continues to evolve, AI-powered systems will play an increasingly important role in shaping the future of
+                financial services and business operations.</div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="dev-det">
+        <div>Hey, I'm Sai Santosh | Front-end developer and UI/UX designer. If you're also a developer and working on the similar projects or want to work together, let's connect!</div>
+        <div  class="link-ic">
+            <a href="https://www.linkedin.com/in/ambati-sai-santosh-492bb4371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+            <a href="https://github.com/Sai-Santosh007" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+
+
+    </div>
+    <script src="page.js"></script>
+</body>
+
+</html>

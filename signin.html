@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in to Santino</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="sign-body">
+    <div class="sig-nav">
+        <svg class="img-sign" viewBox="0 0 220 40" xmlns="http://www.w3.org/2000/svg">
+            <style>
+                .s {
+                    stroke: #2a0008;
+                    fill: none;
+                    stroke-linecap: square;
+                    stroke-linejoin: miter
+                }
+
+                .f {
+                    fill: #2a0008;
+                }
+
+                .nm {
+                    fill: #2a0008;
+                    font-family: sans-serif;
+                    font-weight: 400;
+                    letter-spacing: 4px;
+                    font-size: 15px
+                }
+
+                .vd {
+                    stroke: #2a0008;
+                    stroke-width: 0.6;
+                    opacity: 0.3
+                }
+            </style>
+            <g transform="translate(20,20)">
+                <polygon points="0,-18 15.6,-9 15.6,9 0,18 -15.6,9 -15.6,-9" class="s" stroke-width="1.4" />
+                <polygon points="0,-10 8.7,-5 8.7,5 0,10 -8.7,5 -8.7,-5" class="s" stroke-width="0.7" />
+                <line x1="0" y1="-10" x2="0" y2="-18" class="s" stroke-width="0.8" />
+                <line x1="8.7" y1="-5" x2="15.6" y2="-9" class="s" stroke-width="0.8" />
+                <line x1="8.7" y1="5" x2="15.6" y2="9" class="s" stroke-width="0.8" />
+                <line x1="0" y1="10" x2="0" y2="18" class="s" stroke-width="0.8" />
+                <line x1="-8.7" y1="5" x2="-15.6" y2="9" class="s" stroke-width="0.8" />
+                <line x1="-8.7" y1="-5" x2="-15.6" y2="-9" class="s" stroke-width="0.8" />
+                <circle cx="0" cy="0" r="3" class="f" />
+            </g>
+            <line x1="44" y1="8" x2="44" y2="32" class="vd" />
+            <text x="54" y="25" class="nm">SANTINO</text>
+        </svg>
+        <a class="back" href="index.html">
+            <i class="fa-solid fa-arrow-left"></i> Back
+        </a>
+    </div>
+
+    <div class="sign-cont">
+        <div class="sig-box">
+            <div class="pro-icon">
+                <i class="fa-solid fa-user-tie"></i>
+            </div>
+
+            <form action="error.html" class="sig-form">
+                <div class="sig-input-wrapper">
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="sig-input-wrapper">
+                    <input type="password" placeholder="Enter your password" required>
+                </div>
+
+                <div class="err-btn">
+                    <button type="submit">Sign in</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

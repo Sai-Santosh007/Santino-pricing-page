@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Testinomials- Santino</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+ <div class="sig-nav">
+  <svg class="img-sign" viewBox="0 0 220 40" xmlns="http://www.w3.org/2000/svg">
+   <style>
+    .s {
+     stroke: #2a0008;
+     fill: none;
+     stroke-linecap: square;
+     stroke-linejoin: miter
+    }
+ 
+    .f {
+     fill: #2a0008;
+    }
+ 
+    .nm {
+     fill: #2a0008;
+     font-family: sans-serif;
+     font-weight: 400;
+     letter-spacing: 4px;
+     font-size: 15px
+    }
+ 
+    .vd {
+     stroke: #2a0008;
+     stroke-width: 0.6;
+     opacity: 0.3
+    }
+   </style>
+ 
+   <!-- hexcore symbol centered at x=20 y=20 -->
+   <g transform="translate(20,20)">
+    <polygon points="0,-18 15.6,-9 15.6,9 0,18 -15.6,9 -15.6,-9" class="s" stroke-width="1.4" />
+    <polygon points="0,-10 8.7,-5 8.7,5 0,10 -8.7,5 -8.7,-5" class="s" stroke-width="0.7" />
+    <line x1="0" y1="-10" x2="0" y2="-18" class="s" stroke-width="0.8" />
+    <line x1="8.7" y1="-5" x2="15.6" y2="-9" class="s" stroke-width="0.8" />
+    <line x1="8.7" y1="5" x2="15.6" y2="9" class="s" stroke-width="0.8" />
+    <line x1="0" y1="10" x2="0" y2="18" class="s" stroke-width="0.8" />
+    <line x1="-8.7" y1="5" x2="-15.6" y2="9" class="s" stroke-width="0.8" />
+    <line x1="-8.7" y1="-5" x2="-15.6" y2="-9" class="s" stroke-width="0.8" />
+    <circle cx="0" cy="0" r="3" class="f" />
+   </g>
+ 
+   <!-- divider -->
+   <line x1="44" y1="8" x2="44" y2="32" class="vd" />
+ 
+   <!-- brand name -->
+   <text x="54" y="25" class="nm">SANTINO</text>
+  </svg>
+  <a class="back" href="index.html">
+   <i class="fa-solid fa-arrow-left"></i> Back
+  </a>
+ </div>
+ <section class="testi-section">
+ 
+  <!-- Header -->
+  <div class="testi-header">
+   <div class="testi-eyebrow">
+    <span>&#9733;</span> Social Proof
+   </div>
+   <h2 class="testi-title">
+    Trusted by teams who <span>demand results</span>
+   </h2>
+   <p class="testi-subtitle">
+    Used by founders, operators, and finance teams to automate decisions, reduce manual work, and scale faster.
+   </p>
+  </div>
+  <div style="text-align:center; margin-bottom:2rem; font-weight:600; color:#2a0800;">
+   Trusted by 1000+ teams across fintech, SaaS, and operations
+  </div>
+ 
+  <!-- Cards Grid -->
+  <div class="testi-grid">
+ 
+   <!-- Card 1 -->
+   <article class="testi-card">
+    <div class="testi-rating" aria-label="5 star rating">
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+    </div>
+    <blockquote class="testi-quote">
+     "We went from 6 hours of manual financial tracking every week to under 45 minutes. The AI didn’t just automate tasks —
+     it showed us where we were leaking money."
+    </blockquote>
+    <div class="testi-user">
+     <div class="testi-avatar" aria-label="User avatar placeholder">
+      <span>AK</span>
+     </div>
+     <div class="testi-user-info">
+      <strong class="testi-name">Aisha Kamara</strong>
+      <span class="testi-title-role">Head of Operations, NovaTech</span>
+     </div>
+    </div>
+   </article>
+ 
+   <!-- Card 2 (Featured) -->
+   <article class="testi-card testi-card--featured">
+    <div class="testi-rating" aria-label="5 star rating">
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+    </div>
+    <blockquote class="testi-quote">
+     "We tested 5 tools in 2 weeks. This was the only one that gave us real forecasting instead of dashboards. We made our
+     first data-backed hiring decision within 3 days."
+    </blockquote>
+    <div class="testi-user">
+     <div class="testi-avatar" aria-label="User avatar placeholder">
+      <span>MR</span>
+     </div>
+     <div class="testi-user-info">
+      <strong class="testi-name">Marcus Reid</strong>
+      <span class="testi-title-role">CTO, Loopline Systems</span>
+     </div>
+    </div>
+   </article>
+ 
+   <!-- Card 3 -->
+   <article class="testi-card">
+    <div class="testi-rating" aria-label="5 star rating">
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+    </div>
+    <blockquote class="testi-quote">
+     "We recovered the subscription cost in the first week just by fixing cash flow blind spots the AI pointed out. That
+     alone justified the switch."
+    </blockquote>
+    <div class="testi-user">
+     <div class="testi-avatar" aria-label="User avatar placeholder">
+      <span>SL</span>
+     </div>
+     <div class="testi-user-info">
+      <strong class="testi-name">Sara Linden</strong>
+      <span class="testi-title-role">Founder, Craftly Studio</span>
+     </div>
+    </div>
+   </article>
+ 
+   <!-- Card 4 -->
+   <article class="testi-card">
+    <div class="testi-rating" aria-label="5 star rating">
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+    </div>
+    <blockquote class="testi-quote">
+     "We migrated from 4 different tools into this in a single weekend. No data loss, no chaos — and our reporting finally
+     made sense across teams."
+    </blockquote>
+    <div class="testi-user">
+     <div class="testi-avatar" aria-label="User avatar placeholder">
+      <span>JO</span>
+     </div>
+     <div class="testi-user-info">
+      <strong class="testi-name">James Okafor</strong>
+      <span class="testi-title-role">VP Engineering, Stackrail</span>
+     </div>
+    </div>
+   </article>
+ 
+   <!-- Card 5 (Featured) -->
+   <article class="testi-card testi-card--featured">
+    <div class="testi-rating" aria-label="5 star rating">
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+    </div>
+    <blockquote class="testi-quote">
+     "I’ve run 3 startups. This is the first tool where our finance, ops, and growth teams all rely on the same data —
+     without constant back-and-forth."
+    </blockquote>
+    <div class="testi-user">
+     <div class="testi-avatar" aria-label="User avatar placeholder">
+      <span>PT</span>
+     </div>
+     <div class="testi-user-info">
+      <strong class="testi-name">Priya Thakur</strong>
+      <span class="testi-title-role">CEO, Meridian Labs</span>
+     </div>
+    </div>
+   </article>
+ 
+   <!-- Card 6 -->
+   <article class="testi-card">
+    <div class="testi-rating" aria-label="5 star rating">
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+     <span>&#9733;</span>
+    </div>
+    <blockquote class="testi-quote">
+     "Our compliance team flagged 2 potential risks during onboarding — both were resolved before we went live. That level of
+     transparency is rare."
+    </blockquote>
+    <div class="testi-user">
+     <div class="testi-avatar" aria-label="User avatar placeholder">
+      <span>NC</span>
+     </div>
+     <div class="testi-user-info">
+      <strong class="testi-name">Nina Chen</strong>
+      <span class="testi-title-role">Chief Compliance Officer, Vaultex</span>
+     </div>
+    </div>
+   </article>
+ 
+  </div>
+ 
+ </section>
+</body>
+</html>
